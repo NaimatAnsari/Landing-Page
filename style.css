@@ -1,64 +1,571 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-}
+ * {
+   margin: 0;
+   padding: 0;
+   font-family: 'Poppins', sans-serif;
+ }
 
-.top-banner {
-    background-color: #000;
-    color: #fff;
-    padding: 5px;
-    text-align: center;
-    font-size: 14px;
-  }
+ .home-section {
+   width: 100%;
+   height: 100vh;
+ }
 
-  .navbar {
-    padding: 1rem;
-    background-color: #e3f2fd;
-  }
+ .top-banner {
+   background-color: #000;
+   color: #fff;
+   padding: 8px;
+   text-align: center;
+   font-size: 16px;
+   font-weight: bold;
+ }
 
-  .navbar-brand img {
-    height: 60px; /* Adjust logo size */
-  }
+ .navbar {
+   padding: 1rem;
+   background-color: #F6FFFF;
 
-  .nav-link {
-    font-weight: bold;
-    color: #000;
-  }
+ }
 
-  .nav-link:hover {
-    color: #007bff;
-  }
+ .navbar-brand img {
+   height: 70px;
+   /* Adjust logo size */
+ }
 
-  .navbar-icons {
-    font-size: 1.2rem;
-  }
+ .nav-link {
+   color: #000;
+   margin-right: 40px;
+ }
 
-  .navbar-icons a {
-    color: #000;
-    margin-left: 15px;
-    text-decoration: none;
-  }
+ .nav-link:hover {
+   color: #007bff;
+ }
 
-  .navbar-icons a:hover {
-    color: #007bff;
-  }
+ .navbar-icons {
+   font-size: 1.2rem;
+ }
 
-  @media (max-width: 768px) {
-    .navbar-nav {
-      flex-direction: column;
-      text-align: center;
-    }
+ .navbar-icons a {
+   color: #000;
+   margin-left: 15px;
+   font-weight: 600;
+   font-size: 14px;
+   color: #007bff;
+   text-decoration: none;
+ }
 
-    .navbar-icons {
-      text-align: center;
-      margin-top: 10px;
-    }
-  }
+ .banner-section {
+   width: 98%;
+   height: 450px;
+   border-radius: 20px;
+   background: linear-gradient(90deg, #96E9FB 0%, #ABECD6 100%);
+ }
 
-/* 
+
+ .main-heading1 {
+   width: 588.46px;
+   height: 280.52px;
+   position: relative;
+   bottom: 100px;
+   left: 40px;
+   opacity: 0px;
+   rotate: 1.74 deg;
+ }
+
+ .main-heading1 {
+
+   font-family: Poppins;
+   font-size: 50px;
+   font-weight: 900;
+   line-height: 78px;
+   text-align: left;
+   transform: rotate(-2.26deg);
+ }
+
+ .bg-main-heading1 {
+   background-color: yellow;
+ }
+
+ .main-heading--container-para-1 {
+   width: 650.99px;
+   height: 80px;
+   top: 3303px;
+   left: 719.5px;
+   gap: 0px;
+   opacity: 0px;
+   transform: rotate(-2.26deg);
+
+ }
+
+ .main-heading-para1 {
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 25px;
+   text-align: left;
+
+ }
+
+ .hoodies-btn1 {
+   width: 170px;
+   height: 50px;
+   position: absolute;
+   font-family: 'Poppins', sans-serif;
+   font-size: 16px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-weight: 500;
+   border-radius: 6px;
+   line-height: 0px;
+   text-align: left;
+   background-color: black;
+   color: white;
+   border: none;
+   cursor: pointer;
+   transform: rotate(1.74deg);
+   padding: 0 10px;
+ }
+
+
+ .hero-img {
+   position: relative;
+   bottom: 49px;
+   left: 85px;
+   height: 450px;
+ }
+
+
+ .hero-heading .display-4 {
+   font-size: 60px;
+   font-weight: 900;
+ }
+
+ .hero-heading .lead {
+   font-size: 60px;
+   font-weight: 900;
+
+ }
+
+ .top-categories {
+   width: 100%;
+   height: 100vh;
+   background: #DCFCFF;
+ }
+
+ .row {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 0 4px;
+ }
+
+ /* Create four equal columns that sits next to each other */
+ .column {
+   flex: 25%;
+   max-width: 25%;
+   padding: 0 4px;
+ }
+
+ .column img {
+   margin-top: 8px;
+   vertical-align: middle;
+   width: 100%;
+ }
+
+ .seller-section {
+   width: 100%;
+   height: 100vh;
+ }
+
+ .container-seller {
+   margin-top: 50px;
+ }
+
+ /* Card Styling */
+ .custom-card {
+   width: 240px;
+   height: 520px;
+   background-color: #f9f9f9;
+   border: 1px solid #ddd;
+   margin: 10px 0;
+   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+ }
+
+ .custom-card img {
+   width: 239px;
+   height: 380px;
+ }
+
+ .card-detail {
+   width: 239px;
+   height: auto;
+   padding-top: 10px;
+   font-size: 16px;
+ }
+
+ .card-detail .d-head {
+   font-size: 14px;
+ }
+
+ .card-detail p {
+   font-weight: 600;
+ }
+
+ .card-detail span {
+   font-weight: 600;
+ }
+
+ .card-d-3 {
+   font-size: 12px;
+   position: relative;
+   bottom: 10px;
+ }
+
+ .card-d-4 {
+   font-size: 12px;
+   position: relative;
+   bottom: 30px;
+ }
+
+ .cirle1 {
+   width: 12px;
+   height: 12px;
+   border-radius: 50%;
+   background: #23A6F0;
+   position: relative;
+   bottom: 40px;
+ }
+
+ .cirle2 {
+   width: 12px;
+   height: 12px;
+   border-radius: 50%;
+   background: #23856D;
+   position: relative;
+   bottom: 40px;
+ }
+
+ .cirle3 {
+   width: 12px;
+   height: 12px;
+   border-radius: 50%;
+   background: #E77C40;
+   position: relative;
+   bottom: 40px;
+ }
+
+ .cirle4 {
+   width: 12px;
+   height: 12px;
+   border-radius: 50%;
+   background: #252B42;
+   position: relative;
+   bottom: 40px;
+ }
+
+ .btn-veiw {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 120px;
+   height: 40px;
+   background: #000;
+   border: 1px solid #000;
+   color: #fff;
+ }
+
+ .hoodie-section {
+   width: 100%;
+   height: auto;
+   background: linear-gradient(270deg, #ABECD6 0%, #97E9FA 100%);
+
+ }
+
+ .hoodie-girl {
+   height: 100vh;
+ }
+
+ .main-heading {
+   width: 588.46px;
+   height: 280.52px;
+   top: 2967px;
+   left: 710.96px;
+   gap: 0px;
+   opacity: 0px;
+   rotate: 1.74 deg;
+ }
+
+ .main-heading {
+
+   font-family: Poppins;
+   font-size: 80px;
+   font-weight: 900;
+   line-height: 110px;
+   text-align: left;
+   transform: rotate(-2.26deg);
+ }
+
+ .bg-main-heading {
+   background-color: yellow;
+ }
+
+ .main-heading--container-para {
+   width: 650.99px;
+   height: 80px;
+   top: 3303px;
+   left: 719.5px;
+   gap: 0px;
+   opacity: 0px;
+   transform: rotate(-2.26deg);
+
+ }
+
+ .main-heading-para {
+   font-size: 30px;
+   font-weight: 500;
+   line-height: 40px;
+   text-align: left;
+
+ }
+
+ .hoodies-btn {
+   width: 200px;
+   height: 50px;
+   position: absolute;
+   font-family: 'Poppins', sans-serif;
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 0px;
+   text-align: left;
+   background-color: black;
+   color: white;
+   border: none;
+   cursor: pointer;
+   transform: rotate(1.74deg);
+   padding: 0 10px;
+ }
+
+ .order-section {
+   width: 100%;
+   height: auto;
+   background-color: #F6FFFF;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .card {
+   width: 100%;
+   /* Allow Bootstrap grid to control the width */
+   max-width: 642.33px;
+   height: 500px;
+   border: 1px solid #ddd;
+   border-radius: 2px;
+   overflow: hidden;
+ }
+
+ .card img {
+   width: 100%;
+   height: 350.56px;
+
+ }
+
+ .card-content {
+   padding: 20px;
+   height: 148.8px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }
+
+ .card h3 {
+   margin: 0;
+   font-size: 20px;
+   font-weight: bold;
+ }
+
+ .card p {
+   margin: 5px 0 0;
+   font-size: 1rem;
+   color: #555;
+ }
+
+ .order-btn {
+   width: 160px;
+   height: 35px;
+   border-radius: 5px;
+   position: absolute;
+   font-family: 'Poppins', sans-serif;
+   font-size: 12px;
+   font-weight: bold;
+   background-color: black;
+   color: white;
+   border: none;
+   cursor: pointer;
+   padding: 0 10px;
+   position: relative;
+ }
+
+ .order-btn-container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+ .email-section {
+   width: 100%;
+   height: 324px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+   background: #DCFCFF;
+ }
+
+
+ .all-email-content h2 {
+   font-size: 35px;
+   font-weight: 900;
+ }
+
+ .all-email-content .email-input {
+   margin: 0 auto;
+   width: 350px;
+   height: 55px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   background-color: #ffffff;
+   border-radius: 10px;
+   border: 2px solid black;
+ }
+
+ .all-email-content .email-input input {
+   width: 265px;
+   height: 40px;
+   background: none;
+   border-radius: 10px;
+   border: none;
+   padding: 0 10px;
+   outline: none;
+ }
+
+ .all-email-content .email-input button {
+   width: 100px;
+   height: 40px;
+   background-color: black;
+   color: white;
+   border: none;
+   border-radius: 6px;
+   font-size: 16px;
+   font-weight: 600;
+   margin-right: 4px;
+   cursor: pointer;
+ }
+
+ .footer {
+   width: 100%;
+   height: auto;
+   background: linear-gradient(175.65deg, #97E9F9 3.58%, #57E8D0 96.51%);
+
+ }
+
+ .footer-logo {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   bottom: 15px;
+ }
+
+ .footer-logo {
+   height: 175px;
+ }
+
+ .footer-icon {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   position: relative;
+   bottom: 15px;
+ }
+
+ .footer-about p {
+   font-size: 13px;
+ }
+
+ .footer-nav ul {
+   list-style-type: none;
+   line-height: 30px;
+ }
+
+
+ .bottom-content {
+   width: 100%;
+   height: auto;
+   background-color: #000;
+ }
+
+ .bottom-container-para {}
+
+ /* Mobile-specific carousel styling */
+ @media (max-width: 768px) {
+   .card-container {
+     display: flex;
+     overflow-x: scroll;
+     scroll-snap-type: x mandatory;
+     gap: 10px;
+   }
+
+   .custom-card {
+     scroll-snap-align: start;
+     flex: 0 0 auto;
+     width: 90%;
+     /* Adjust card width on mobile for a better look */
+   }
+
+   /* Hide scrollbar */
+   .card-container::-webkit-scrollbar {
+     display: none;
+   }
+
+   .card-container {
+     -ms-overflow-style: none;
+     scrollbar-width: none;
+   }
+ }
+
+ /* Responsive layout - makes a two column-layout instead of four columns */
+ @media screen and (max-width: 800px) {
+   .column {
+     flex: 50%;
+     max-width: 50%;
+   }
+ }
+
+ /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+ @media screen and (max-width: 600px) {
+   .column {
+     flex: 100%;
+     max-width: 100%;
+   }
+ }
+
+
+ @media (max-width: 768px) {
+   .navbar-nav {
+     flex-direction: column;
+     text-align: center;
+   }
+
+   .navbar-icons {
+     text-align: center;
+     margin-top: 10px;
+   }
+ }
+
+ /* 
 .top-content {
     width: 100%;
     height: 45.99px;
