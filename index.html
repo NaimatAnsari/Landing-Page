@@ -10,6 +10,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <div class="home-section">
   <!-- Top Banner -->
@@ -51,24 +52,29 @@
   </nav>
 
   <!-- Banner -->
-   <section class="py-4 px-5">
-    <div class="banner-section py-5">
+   <section class="px-2 py-5">
+    <div class="banner-section container-fluid">
       <div class="banner">
         <div class="row ">
-         <div class="col-sm-12 col-lg-6 col-md-12 col-12 mx-auto py-5 ">
-          <div class="d-flex align-items-center justify-content-center mt-5">
-            <div class="main-heading1">
-              <p><span class="bg-white px-2">Customize</span> <br><span>Anything</span><br> <span class="bg-main-heading1 px-2">we print it</span></p>
-              <div class="main-heading-container-para1">
-                <p class="main-heading-para1">Apparel as your taste for your event,<br> business, group, or team</p>
-        </div>
-        <button class="hoodies-btn1 mx-4">Start Designing</button>
+         <div class="col-12 col-lg-6 d-flex align-items-center justify-content-center text-center main-dabba" >
+          <div class="main-text">
+            <div class="d-flex align-items-center justify-content-center mt-5">
+              <div class="main-heading1 text-center">
+                <p><span class="bg-white ">Customize</span> <br><span>Anything</span><br> <span class="bg-main-heading1 px-2">we print it</span></p>
+                <p class="main-heading-para1 text-center">Apparel as your taste for your event,<br> business, group, or team</p>
+                <!-- <div class="main-heading-container-para1">
+                  
+                </div> -->
+                <div class="btns d-flex justify-content-center w-100">
+                  <button class="hoodies-btn1 text-center ">Start Designing</button>
+                </div>
+              </div>
             </div>
           </div>
           
         </div>
-          <div class="col-sm-12 col-lg-6 col-md-6 col-12 mx-auto">
-            <img src="./src/hero-cover-1.png" alt="Image" class="mx-auto hero-img img-fluid text-center">
+          <div class="col-sm-12 col-lg-6 col-md-6 col-12 mx-auto d-flex align-items-end">
+            <img src="./src/hero-cover-1.png" alt="Image" class="mx-auto text-center w-100">
           </div>
         </div>
       </div>
@@ -76,15 +82,37 @@
   </section>
     </div>
 
-  <div class="container-fluid">
-    <div class="container">
-      <div class="row d-flex align-items-start bg-success" style="display: grid; grid-template-columns: repeat(3, 1fr);">
-        <img class="w-25" src="src/image 3.jpg" alt="">
-        <img class="w-25 " src="src/image 5.jpg" alt="">
-        <img class="w-25" src="src/image 4.jpg" alt="">
-        <img class="w-25" src="src/image 2.jpg" alt="">
+  <div class="top-categories">
+    <div class="container main-images-container">
+      <div class=" main-container">
+        <h3 class="fs-1 fw-bold text-center pt-5 mb-3 ">Shop Our Top Categories</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-lg-4 col-sm-6 col-6">
+              <img class="img-fluid w-100 mb-3" src="src/image 5.jpg" alt="">
+              <img class="img-fluid w-100 mb-3" src="src/image 2.jpg" alt="">
+              <img class="img-fluid w-100 mb-3" src="src/image 4.jpg" alt="">
+              
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-6 col-6">
+              <img class="img-fluid w-100 mb-3" src="src/image 3.jpg" alt="">
+              <img class="img-fluid w-100 mb-3" src="src/image 6.jpg" alt="">
+              <img class="img-fluid w-100 mb-3 bg-black" src="src/image.png" alt="">
+              
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-6 col-6">
+              <img class="img-fluid w-100 mb-3" src="src/image 4.jpg"  alt="">
+              <img class="img-fluid w-100 mb-3" src="src/image 7.jpg" alt="">
+              
+              <img class="img-fluid w-100 mb-3" src="src/image 8.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        
       </div>
+      
     </div>
+    
   </div>
 
     <section class="seller-section  mb-5">
@@ -170,18 +198,21 @@
     </section>
 
     <section class="hoodie-section">
-      <div class="row">
+      <div class="row flex-column-reverse flex-md-row">
         <div class="col-sm-12 col-lg-6 col-md-12 col-12 mx-auto">
           <img src="./src/image_15.png" alt=" Image" class="img-fluid text-center hoodie-girl" >
         </div>
-        <div class="col-sm-12 col-lg-6 col-md-12 col-12 mx-auto py-5 ">
-          <div class="d-flex align-items-center justify-content-center mt-5">
-            <div class="main-heading">
-              <p>Customizable <span class="bg-main-heading px-3">Hoodies for</span>  Every  Style</p>
-              <div class="main-heading-container-para">
-                <p class="main-heading-para">your designs on comfy hoodies. Chose form vibrant colors for all seasons.</p>
-        </div>
-        <button class="hoodies-btn">SHOP HOODIES</button>
+        <div class="col-12 col-lg-6 text-center py-5" >
+          <div class="main-text">
+            <div class="d-flex align-items-center justify-content-center ">
+              <div class="main-heading ">
+                <p><span class=" ">Customizable</span> <br><span class="bg-main-heading px-2">Hoodies for</span><br> <span >Every style</span></p>
+                <p class="main-heading-para ">your designs on comfy hoodies. Chose <br>form vibrant colors for all seasons.</p>
+
+                <div class="hoodies-con-btns text-center d-flex  w-100">
+                  <button class="hoodies-btn text-center rounded">SHOP HOODIES</button>
+                </div>
+              </div>
             </div>
           </div>
           
@@ -196,7 +227,7 @@
   <div class="container py-5">
     <div class="row py-5 flex-column-reverse flex-md-row " >
       <!-- Card 1 -->
-      <div class="col-sm-12 col-lg-6 col-md-12 col-12 mx-auto">
+      <div class="col-sm-12 col-lg-6 col-md-12 col-12 mx-auto py-5">
         <div class="card">
           <img src="./src/order1.png" alt="Card Image 1">
           <div class="card-content">
