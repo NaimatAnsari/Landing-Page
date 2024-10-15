@@ -364,6 +364,9 @@ align-items: center;
 
 }
 
+.row{
+  margin-right: 0px;
+}
 
 
 .hoodies-btn {
