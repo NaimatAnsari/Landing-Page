@@ -365,7 +365,7 @@ align-items: center;
 }
 
 .row{
-  margin-right: 0px;
+  margin-right: 0px !important;
 }
 
 
